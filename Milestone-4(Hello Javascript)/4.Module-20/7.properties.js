@@ -48,3 +48,14 @@ console.log(shoppingCart); //{ books: 3, sunglass: 1, Keyboard: 3, mouse: 29, pe
 const books = "books";
 shoppingCart[books] = 10;
 console.log(shoppingCart); //{ books: 10, sunglass: 1, Keyboard: 3, mouse: 29, pen: 25 }
+
+const entries = Object.entries(shoppingCart);
+console.log(entries);
+
+/* 
+[ [ 'books', 10 ],
+  [ 'sunglass', 1 ],
+  [ 'Keyboard', 3 ],
+  [ 'mouse', 29 ],
+  [ 'pen', 25 ] ]
+*/
