@@ -15,4 +15,5 @@ function findOddSum(arr) {
 const numbers = [5, 7, 8, 10, 45, 30];
 
 const result = findOddSum(numbers);
+
 console.log(result); //57
