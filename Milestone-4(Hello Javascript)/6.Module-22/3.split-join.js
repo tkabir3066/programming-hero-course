@@ -1,3 +1,5 @@
+// How to split, slice, substr, substring, concat, join - see mdn docs
+
 //==== split =========//
 
 // const str = "The quick brown fox jumps over the lazy dog.";
