@@ -33,3 +33,21 @@ const str = "Mozilla";
 
 console.log(str.substring(1, 3)); //oz
 console.log(str.substring(2)); // zilla
+
+// join method
+//join()
+// join(separator)
+
+const fruits = ["apple", "pears", "mango", "guava"];
+
+const joinedFruits1 = fruits.join();
+console.log(joinedFruits1); //apple,pears,mango,guava
+
+const joinedFruits2 = fruits.join("");
+console.log(joinedFruits2); //applepearsmangoguava
+
+const joinedFruits3 = fruits.join("-");
+console.log(joinedFruits3); //apple-pears-mango-guava
+
+const joinedFruits4 = fruits.join(" ");
+console.log(joinedFruits4); //apple pears mango guava
