@@ -47,6 +47,8 @@ console.log(str2.startsWith("sat")); // true
 console.log(str2.startsWith("sat", 0));
 
 //========= endsWith()====//
+//endsWith(searchString)
+// endsWith(searchString, endPosition)
 
 console.log(str2.endsWith("plans")); // true
 console.log(str2.endsWith("plan")); // false
