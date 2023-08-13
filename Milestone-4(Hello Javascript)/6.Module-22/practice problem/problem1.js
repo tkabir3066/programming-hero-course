@@ -20,6 +20,7 @@
 
 function deliciousCake(m, n) {
   const max = Math.max(m, n);
+  console.log(max);
   if (max) {
     return "Jim will get this cake";
   } else {
