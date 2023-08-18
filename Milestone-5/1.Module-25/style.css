@@ -5,3 +5,10 @@
 li{
   color
 } */
+.awesome {
+  background-color: bisque !important;
+}
+
+.text-center {
+  text-align: center;
+}
