@@ -1,3 +1,3 @@
-console.log("hello world");
+// console.log("hello world");
 
-console.log(document);
+// console.log(document);
