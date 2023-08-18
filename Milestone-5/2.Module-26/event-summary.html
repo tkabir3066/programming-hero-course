@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Final DOM Event handler</h1>
+    <h3 id="handle-status">Default text</h3>
+
+    <p>Input Text</p>
+    <input id="input-field" type="text" />
+    <button id="btn-update">Update</button>
+
+    <br /><br />
+    <button onclick="handleOnClick()">
+      Handle Event by add onclick function
+    </button>
+
+    <button id="event-listener">Handle event by addEventListener</button>
+    <script>
+      //  option-1
+      function handleOnClick() {
+        const handleStatus = document.getElementById("handle-status");
+        handleStatus.innerText = "Ami tomake bhalo bashi";
+      }
+
+      // option-2
+
+      document
+        .getElementById("event-listener")
+        .addEventListener("click", function () {
+          const handleStatus = document.getElementById("handle-status");
+          handleStatus.innerText = "marbo ekhane lash porbe soshane";
+        });
+
+      // update
+
+      document.getElementById("btn-update").addEventListener("click", () => {
+        const inputField = document.getElementById("input-field");
+        const inputText = inputField.value;
+        console.log(inputText);
+      });
+    </script>
+  </body>
+</html>
