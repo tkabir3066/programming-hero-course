@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More Events</title>
+  </head>
+  <body>
+    <h1>Explore More Events</h1>
+    <button id="btn-more">More Events</button>
+
+    <input id="text-field" type="text" />
+
+    <!-- scripts -->
+    <script>
+      //=============================== focus =========================================//
+
+      // document.getElementById("text-field").addEventListener("focus", () => {
+      //   console.log("Event triggered inside the input field");
+      // });
+
+      // ==============================blur===========================================//
+
+      // document.getElementById("text-field").addEventListener("blur", () => {
+      //   console.log("Event triggered inside the input field blur");
+      // });
+      /*   // ============================== keydown ===========================================//
+
+      document
+        .getElementById("text-field")
+        .addEventListener("keydown", (event) => {
+          // console.log(event.target); // <input id="text-field" type="text">
+          console.log(event.target.value);
+        }); */
+
+      // // ============================== keypress ===========================================//
+
+      // document
+      //   .getElementById("text-field")
+      //   .addEventListener("keypress", (event) => {
+      //     // console.log(event.target); // <input id="text-field" type="text">
+      //     console.log(event.target.value);
+      //   });
+
+      // ============================== keypress ===========================================//
+
+      document
+        .getElementById("text-field")
+        .addEventListener("keyup", (event) => {
+          // console.log(event.target); // <input id="text-field" type="text">
+          console.log(event.target.value);
+        });
+
+      //============================== mouseenter ====================================//
+      // document.getElementById("btn-more").addEventListener("mouseenter", () => {
+      //   console.log("Event triggered");
+      // });
+
+      // // ========================== mousemove =====================================//
+      // document.getElementById("btn-more").addEventListener("mousemove", () => {
+      //   console.log("Event triggered");
+      // });
+
+      //============================== mouseover ====================================//
+      //   document.getElementById("btn-more").addEventListener("mouseover", () => {
+      //     console.log("Event triggered");
+      //   });
+    </script>
+  </body>
+</html>
